@@ -23,5 +23,21 @@ let obj2={
     6:"f"
 }
 let obj3=Object.assign(obj1,obj2);
-console.log(obj3);
+// console.log(obj3);
+
+
+// const user2=new Object() //when we declare in this form this is called Singleton object
+const user2={}
+user2.id="01"
+user2.name="Rohan"
+user2.age=22
+// console.log(user2);
+// console.log(Object.keys(user1));
+// console.log(Object.values(user1));
+// console.log(Object.entries(user1));
+console.log(user2.hasOwnProperty("name"));
+
+
+
+
 
