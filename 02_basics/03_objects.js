@@ -35,9 +35,36 @@ user2.age=22
 // console.log(Object.keys(user1));
 // console.log(Object.values(user1));
 // console.log(Object.entries(user1));
-console.log(user2.hasOwnProperty("name"));
+// console.log(user2.hasOwnProperty("name"));
+
+// object destructring
+
+const course={
+    courseName:"JavaScript Basics",
+    cousreFees:1999,
+    courseInstructor:"Hitesh",
+    courseStartDate:"04-25-2022",
+    courseEndDate:"10-30-2030"
+}
+const {courseName}=course;
+console.log(courseName);
+// or
+const {courseName:name}=course;//we can give another name to access.
+console.log(name);
 
 
+//api basics
+//the data will mostly in json format or in array format
+// {
+//     key:values
+// }
 
+// or like this array and inside that objects
+// [
+//     {},
+//     {},
+//     {}
+// ]
 
-
+// we can use randomuser me api to get free api data and we can format or understand by using json
+//  formator in google and breakdown the api in various object and multiple array so understand better.
