@@ -35,6 +35,7 @@ map.set("US","United States Of America");
 
  // but for object dont work the same
 // lets try
+
 //error shown->TypeError: user1 is not iterable
 
 const user1={
