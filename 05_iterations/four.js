@@ -1,3 +1,20 @@
+//for in loop specially used to iterating the object.
+let user1={
+    name:"Rohan",
+    age:21,
+    city:"jalandhar",
+    state:"punjab"
+}
+
+// for(let key in user1){ // only to iterate for keys
+//     console.log(key);
+// }
+for(let key in user1){
+    console.log(` the key is ${key} and value is ${user1[key]}`);
+}
+
+
+
 const programming=["Javascript","Java","Pyhton","Cpp","C"]
 
 // programming.forEach((item)=>{
@@ -17,4 +34,4 @@ const books=[
 let userBook=books.filter((bk)=> bk.genre=="friction")//it we are writting arrow function without {} or
 // in one line no need to write return.
 userBook=books.filter((bk)=>{return bk.publish>=2000 && bk.genre=="friction"})
-console.log(userBook);
+// console.log(userBook);
