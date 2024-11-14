@@ -9,10 +9,16 @@ let user1={
 // for(let key in user1){ // only to iterate for keys
 //     console.log(key);
 // }
-for(let key in user1){
-    console.log(` the key is ${key} and value is ${user1[key]}`);
-}
 
+// for(let key in user1){
+//     console.log(` the key is ${key} and value is ${user1[key]}`);
+// }
+
+//for in loop in array
+let arr1=["Javascript","Java","Pyhton","Cpp","C"]
+for(let key in arr1){
+    console.log(arr1[key]);
+}
 
 
 const programming=["Javascript","Java","Pyhton","Cpp","C"]
